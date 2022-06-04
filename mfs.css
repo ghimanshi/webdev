@@ -1,0 +1,179 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+body{
+    background-image: url("https://media.istockphoto.com/vectors/distance-learning-white-doodles-on-black-background-vector-id1257483142?s=612x612");
+    
+
+}
+#scroll{
+    background-color: white;
+    height: 47vh;
+    width: 70vw;
+    /* margin-top: 150px !important; */
+    margin-left: 10vw !important;
+    overflow: scroll;
+    position: fixed;
+    top: 30vh !important;
+    -ms-overflow-style: none; 
+    scrollbar-width: none;
+    padding: 5vw;
+
+}
+
+#scroll::-webkit-scrollbar{
+    display:none;
+}
+#Header{
+    position:fixed;
+    height: 25vh;
+    width: 100vw;
+    background-color: black;
+    
+
+}
+
+.greet{
+    font-size: 35px;
+    font-family: monospace;
+    color: white;
+    text-align: center;
+}
+
+.tab{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.tab a{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    padding: 5vw;
+    text-decoration: none;
+    
+}
+
+.tab a:hover{
+    color:rgb(144, 144, 230) !important;
+    transition: 0.3;
+}
+
+.Intro{
+    background-color: black !important;
+    opacity: 0.8;
+    width: 60vw;
+    height:10vh;
+    margin: auto;
+    padding: 4vw;
+    border: white double 20px;
+    
+
+    
+
+}
+.Intro img{
+    height: 100px;
+    width:130px;
+    align-self: right;
+    
+} 
+.Intro img:hover{
+    height: 110px;
+    width:150px;
+    transition:0.3;
+
+
+}
+.introtext{
+    color:white;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.Intro:hover{
+    opacity:1;
+    transition: 0.3;
+
+}
+
+.intromain{
+    margin-top: 5vw;
+    text-align: center;
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#skills{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    margin: 5vw;
+
+}
+.heading{
+    background-color: black !important;
+    width: 60vw;
+    height: fit-content;
+    padding:5px;
+    color: white !important;
+} 
+
+#skills p{
+    background-color: rgb(200, 200, 247);
+    width: 60vw;
+    height: fit-content;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+
+.social{
+    text-align: center;
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.social p{
+    background-color: black;
+    height: 80px !important;
+    width:90px;
+    display: inline-block;
+    margin: 10px;
+    
+
+}
+
+.social p:hover{
+    background-color:rgb(144, 144, 230) ;
+    transition: 0.3;
+}
+.social img{
+    height: 60px;
+    width: 70px;
+    padding: 10px;
+}
+
+#projects{
+    margin:20px;
+    text-align: center;
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+#skills h4{
+    text-align: center;
+    text-decoration: underline;
+     
+}
+
+#projects b{
+    text-align: center;
+    text-decoration: underline;
+}

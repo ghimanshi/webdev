@@ -1,0 +1,122 @@
+
+*{
+    margin: 0 !important;
+    padding: 0 !important;
+}
+body{
+    background-image: url("https://media.istockphoto.com/vectors/distance-learning-white-doodles-on-black-background-vector-id1257483142?s=612x612");
+    width:100vw !important;
+    -ms-overflow-style: none; 
+    scrollbar-width: none;
+    overflow-x: hidden;
+    
+}
+body::-webkit-scrollbar{
+    display:none;
+}
+.product-grid{
+    display: grid;
+    gap: 5vh 5vw;
+    grid-template-rows: auto auto auto;
+    grid-template-columns: auto auto auto;
+    align-items: center;
+}
+.products h4{
+    text-align: center;
+    font-size: 30px;
+    color: #ffffff;
+    margin: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: underline;
+    padding: 0.3em !important;
+    margin:0.3em !important;
+    background-color: black;
+    width: 100vw;
+}
+
+
+.ptitle{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.2em;
+}
+.products{
+    width: 100vw;
+}
+.gridItem{
+    padding: 10px !important;
+    background-color: black;
+    color: #ffffff;
+    font-size: 1.1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+    height: 40vh;
+    width: 25vw;
+    border:white double 10px;
+    text-align: center;
+    box-shadow: 10px 10px black;
+}
+.gridItem:hover{
+    border:rgb(144, 144, 230) double 10px;
+    transition: 0.5;
+}
+
+.gridItem img{
+    min-width: 100px;
+    min-height: 100px;
+    max-width: 130px;
+    max-height: 100px;
+    border: 5px white solid;
+}
+.tab{
+    height: 100px;
+    width: 100%;
+    background-color:black;
+    display: flex;
+    justify-content: right;
+    align-items: right;
+    padding: 5px;
+    overflow-x: hidden;
+}
+.tab a{
+    height: fit-content;
+    width: fit-content;
+    
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.tab a:hover{
+    color:rgb(144, 144, 230);
+    transition: 0.3;
+
+}
+.search{
+    height: 30px;
+    width: 100%;
+    background-color:black;
+    display:flex;
+    padding: 10px !important;
+    justify-content: center !important;
+    align-items: center !important;
+    overflow-x: hidden;
+    color: white;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.search input{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin:auto;
+    
+
+
+}
+.search input:hover{
+    border: 3px rgb(144, 144, 230) solid;
+    border-radius: 8px;
+}
+
